@@ -1,0 +1,41 @@
+.mx-custom-section-title {
+	height: 50vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #e3e3e3;
+}
+.mx-custom-section-title h2 {
+	font-size: 40px;	
+}
+.mx-custom-section-background {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+	max-height: 400px;
+	padding: 20px;
+}
+.mx-custom-section-background h2 {
+	color: #ffffff;
+	font-size: 36px;
+	text-align: center;
+	margin: 30px 0px;
+}
+.mx-custom-section-background p {
+	color: #ffffff;
+	text-align: center;
+	margin: 20px;
+}
+.mx-owl-carousel .item {
+	position: relative;
+}
+.mx-owl-carousel .item h4 {
+	position: absolute;
+    text-align: center;
+    top: 50%;
+    color: #fff;
+    font-size: 40px;
+    width: 100%;
+    margin-top: -50px;
+}
